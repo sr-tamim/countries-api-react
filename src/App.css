@@ -1,0 +1,35 @@
+
+#searchInput,#searchBut{
+  font-size: 22px;
+  padding: 5px 8px;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 0 10px rgb(172, 172, 172);
+}
+#searchInput{ width: 50%; max-width: 500px;}
+#searchBut{
+  width: 20%;
+  min-width: max-content;
+  max-width: 200px;
+  background: crimson;
+  color: white;
+  font-weight: bold;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.country{
+  text-align: center;
+  padding: 30px;
+  width: 300px;
+}
+.country img{
+  width: 100%;
+}
